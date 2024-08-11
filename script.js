@@ -10,5 +10,4 @@ function add(){
     }
 }
 function deleteItem(button) {
-    ulist.removeChild(button.parentElement);
-}
+    ulist.removeChild(button.parentElement);}
