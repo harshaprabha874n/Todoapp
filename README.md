@@ -1,2 +1,2 @@
 # Todoapp
-<img src="todoapp\todo1.png">
+<img src="todo1.png">
