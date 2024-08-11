@@ -8,14 +8,18 @@
 </head>
 <body>
     <div class="container">
-        <input type="text" id="input" placeholder="Add your List">
-        <button onclick="add()">Save Note</button>
+        <div class="todoapp">
+             <div class="row">
+                 <input type="text" id="input" placeholder="Add your List">
+                 <button onclick="add()">Save Note</button>
+             </div>
+                 <ul id="list-container">
+          <!---<li>
+          <button onclick="del()">Delete</button>
+           </li>-->
+                 </ul>
+        </div>
     </div>
-    <ul id="list-container">
-       <li>Hello
-        <button>Delete</button>
-       </li>
-    </ul>
     <script src="script.js"></script>
 </body>
 </html>
